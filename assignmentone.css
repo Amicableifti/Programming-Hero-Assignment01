@@ -64,6 +64,31 @@ main{
    padding: 20px 30px;
    vertical-align: middle;
  }
+
+ .div_develop{
+    display:flex;
+    column-gap: 40px;
+ }
+ .div_develop_left{
+
+    width: 40%;
+ }
+ .div_develop_right{
+   width:60%;
+}
+
+.div_comunity{
+    display:flex;
+    column-gap: 40px;
+ }
+ .div_comunity_left{
+
+    width: 40%;
+ }
+ .div_comunity_right{
+   width:60%;
+}
+
 /* Heading All  */
 h1{
    
@@ -100,10 +125,24 @@ a{
     padding: 10px 20px;
     background: #FF5959;
     border-radius: 5px; 
+    text-decoration: none;
+    color: #fff;
 }
 
 /* All img Tag Here */
 
 img{
     width: 100%;
+}
+
+
+/*-------CSS */
+.text_align_left{
+  
+    text-align: left;
+}
+
+.section_gap_between{
+
+    margin: 80px 0px;
 }
