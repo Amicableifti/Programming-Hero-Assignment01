@@ -28,6 +28,8 @@ footer{
 .section-intro{
     
     display:flex;
+    justify-content: center;
+    align-items: center;
 }
  .section_mission{
 
@@ -46,6 +48,8 @@ footer{
   
     display:flex;
     column-gap: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .div_one_mission{
@@ -75,6 +79,9 @@ footer{
  .div_develop{
     display:flex;
     column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+
  }
  .div_develop_left{
 
@@ -87,6 +94,8 @@ footer{
 .div_comunity{
     display:flex;
     column-gap: 40px;
+    justify-content: center;
+    align-items: center;
  }
  .div_comunity_left{
 
@@ -100,6 +109,8 @@ footer{
 
     display:flex;
     column-gap: 40px;
+    justify-content: center;
+    align-items: center;
 }
 .div_myblog_one{
     width:33.9%;
@@ -115,13 +126,48 @@ footer{
 
 }
 
-
+.div_myblog_two_one {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px #ff595921;
+    padding: 10px;
+    margin-bottom: 25px;
+    
+}
+.div_myblog_two_two {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px #ff595921;
+    padding: 10px;
+}
+.div_myblog_three_one {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px #ff595921;
+    padding: 10px;
+    margin-bottom: 23px;
+}
+.div_myblog_three_two {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px #ff595921;
+    padding: 10px;
+  
+}
 /* Heading All  */
 h1{
    
+    font-size: 60px;
+    font-family: Yeseva One;
+    line-height: 80px;
+    margin-bottom: 30px;
 
 }
-footer h1{
+.h1{
+   
+    font-size: 60px;
+    font-family: poppins;
+    line-height: 80px;
+    margin-bottom: 30px;
+
+}
+.footer_h1{
 font-family: Lobster;
 font-style: normal;
 font-weight: normal;
@@ -133,7 +179,13 @@ h2{
 
 }
 .h2{
-    text-align: center;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 54px;
+    
 }
 h3{
     font-size: 22px;
@@ -160,6 +212,10 @@ color:
 
 
 }
+.headercolorone{
+ color: #FFAD5A;
+
+}
 .heading_style_two{
 
 
@@ -168,13 +224,19 @@ color:
 /* All Paragrapgh Here */
 p{
 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 32px 0px;
 }
 
 /* All Link/Ancor Tag Here */
 
 a{
 
-    padding: 10px 20px;
+    padding: 12px 25px;
     background: #FF5959;
     border-radius: 5px; 
     text-decoration: none;
@@ -186,8 +248,13 @@ a{
 img{
     width: 100%;
 }
-
-
+.blog_img{
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px #ff595921;
+}
+.img_mission{
+ width: 50%;
+}
 /*-------CSS */
 .text_align_left{
   
@@ -233,4 +300,9 @@ em{
     font-size: 14px;
     line-height: 24px; 
     color: #D9DBE1;
+}
+.margin_top_bottom{
+  
+    margin-bottom: 60px;
+    margin-bottom: 60px;
 }
