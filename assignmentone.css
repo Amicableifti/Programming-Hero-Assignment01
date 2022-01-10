@@ -4,10 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700;800&display=swap');
+
 /*  Start Css From Here */
 body{
 
-    margin: 0px
+    margin: 0px;
     padding:0px;
     font-family: poppins;
     
@@ -16,6 +20,9 @@ body{
 main{
     max-width: 1200px;
     margin:auto;
+}
+footer{
+
 }
 /* Section  All  */
 .section-intro{
@@ -89,10 +96,38 @@ main{
    width:60%;
 }
 
+.div_myblog{
+
+    display:flex;
+    column-gap: 40px;
+}
+.div_myblog_one{
+    width:33.9%;
+
+}
+.div_myblog_two{
+    width:33%;
+
+}
+
+.div_myblog_three{
+    width:33%;
+
+}
+
+
 /* Heading All  */
 h1{
    
 
+}
+footer h1{
+font-family: Lobster;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+color: #fff;
 }
 h2{
 
@@ -100,9 +135,26 @@ h2{
 .h2{
     text-align: center;
 }
+h3{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+h4{
+    font-size: 14px;
+    color: #0B0D17;
+}
 span{
     
+}
+
+footer span{
+    
+color: 
+#FF5959;
 }
 .heading_style_one{
 
@@ -141,8 +193,44 @@ img{
   
     text-align: left;
 }
-
+.text_align_center{
+  
+    text-align: center;
+}
 .section_gap_between{
 
     margin: 80px 0px;
+}
+
+.align_item_center{
+    align-items: center;
+}
+
+.footer{
+    background: #0B0D17;
+    padding: 40px 0px;
+}
+em{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #D9DBE1;
+}
+.em_style_one{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px; 
+    color: #D9DBE1;
+}
+.em_syle_two{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #D9DBE1;
 }
