@@ -9,43 +9,71 @@ body{
 
     margin: 0px
     padding:0px;
-    font-family: Yeseva One;
+    font-family: poppins;
+    
+}
+
+main{
+    max-width: 1200px;
+    margin:auto;
 }
 /* Section  All  */
-.sectionintro{
-
+.section-intro{
+    
+    display:flex;
 }
-.left-div{
+ .section_mission{
 
-}
-
-.heading_style_one{
-
-
-}
-
+    
+ }
 /* DIV All  */
 .right-div{
-
+      
+    width: 50%;
+}
+.left-div{
+      
+    width: 50%;
+}
+.div_mission{
+  
+    display:flex;
+    column-gap: 40px;
 }
 
-.sectionone{
-
+.div_one_mission{
+   width: 33.33%;
+   background: rgba(79, 157, 166, 0.1);
+   border-radius: 26px;
+   padding: 20px 30px;
+   vertical-align: middle;
+   column-gap: 40px;
+   
 }
-.sectionone{
-
-}
-.sectionone{
-
-}
-
+.div_two_mission{
+    width: 33.33%;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 26px;
+    padding: 20px 30px;
+    vertical-align: middle;
+ }
+ .div_three_mission{
+    width: 33.33%;
+   background: rgba(79, 157, 166, 0.1);
+   border-radius: 26px;
+   padding: 20px 30px;
+   vertical-align: middle;
+ }
 /* Heading All  */
 h1{
-
+   
 
 }
 h2{
 
+}
+.h2{
+    text-align: center;
 }
 
 span{
@@ -58,4 +86,24 @@ span{
 .heading_style_two{
 
 
+}
+
+/* All Paragrapgh Here */
+p{
+
+}
+
+/* All Link/Ancor Tag Here */
+
+a{
+
+    padding: 10px 20px;
+    background: #FF5959;
+    border-radius: 5px; 
+}
+
+/* All img Tag Here */
+
+img{
+    width: 100%;
 }
